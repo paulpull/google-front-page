@@ -1,0 +1,45 @@
+.header {
+    
+    display: grid;
+    grid-template-columns: 16fr 1fr 1fr 1fr 1fr;
+
+}
+
+.gmail {
+    margin-top: 5px;
+    grid-column: 2/3;
+}
+
+.imgs {
+    margin-top: 5px;
+    grid-column: 3/4;
+}
+
+.apps {
+    margin-top: 3px;
+    margin-left: 15px;
+    grid-column: 4/5;
+    
+}
+
+.signin {
+    width: 90px;
+    background-color: #1a73e8;
+    color: white;
+    grid-column: 5/6;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.appsimage {
+    height: 25px;
+}
+
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
