@@ -6,54 +6,50 @@
         <link href="styles/styles.css" type="text/css" rel="stylesheet">
     </head>
     <body>
-        <div class="header">
-            <div class="gmail">
-                <a href="">Gmail</a>
+        <div id="header">
+            <div id="gmail">
+                <a class="topa" href="">Gmail</a>
             </div>
-            <div class="imgs">
-                <a href="">Images</a>
+            <div id="imgs">
+                <a class="topa" href="">Images</a>
             </div>
-            <div class="apps">
-                <a href="" title="Google apps"><img class="appsimage" src="images/apps.png" alt="apps"></a>
+            <div id="apps">
+                <a href="" title="Google apps"><img id="appsimage" src="images/apps.png" alt="apps"></a>
             </div>
-            <div class="signin">
-                <a href="" style="color: white; margin-top: 15px;">Sign in</a>
+            <div id="signin">
+                <a href="" id="signin-text">Sign in</a>
             </div>
         </div>
-        <div>
+        <div id="logo">
             <img src="images/logo.png" alt="Google logo">
         </div>
-        <div>
+        <div id="search-box">
+            <img id="searcher" src="images/search.png" alt="">
+            <input id="input" type="text" title="Search" tabindex="1">
+            <a href="" tabindex="2" title="Search by voice"><img id="mic" src="images/mic.png" alt="search by voice"></a>
+        </div>
+        <div id="buttons">
             <div>
-                <img src="images/search.png" alt="">
-                <input type="text" title="Search" tabindex="1">
-                <a href="" tabindex="2" title="Search by voice"><img src="images/mic.png" alt="search by voice"></a>
+                <button type="submit" value="Google Search" tabindex="3">Google Search</button>
             </div>
             <div>
-                <div>
-                    <button type="submit" value="Google Search" tabindex="3">Google Search</button>
-                </div>
-                <div>
-                    <button type="submit" value="I'm feeling lucky" tabindex="4">I'm feeling lucky</button>
-                </div>
+                <button type="submit" value="I'm feeling lucky" tabindex="4">I'm feeling lucky</button>
             </div>
-        </div>
-        <div>
-            Google offered in: <a href="" tabindex="5">Slovenčina</a>
-        </div>
-        <div>
-            <div>
-                Slovakia
-            </div>
-        </div>
-        <div>
-            <a href="" tabindex="6">About</a>
-            <a href="" tabindex="7">Advertising</a>
-            <a href="" tabindex="8">Business</a>
-            <a href="" tabindex="9">How Search works</a>
-            <a href="" tabindex="10">Privacy</a>
-            <a href="" tabindex="11">Terms</a>
-            <a href="" tabindex="12">Settings</a>
         </div>
     </body>
+    <footer>
+        <div id="footer">
+            <div id="f1">
+                <a href="" tabindex="6">About</a>
+                <a href="" tabindex="7">Advertising</a>
+                <a href="" tabindex="8">Business</a>
+                <a href="" tabindex="9">How Search works</a>
+            </div>
+            <div id="f2">
+                <a href="" tabindex="10">Privacy</a>
+                <a href="" tabindex="11">Terms</a>
+                <a href="" tabindex="12">Settings</a>
+            </div>
+        </div>
+    </footer>
 </html>
