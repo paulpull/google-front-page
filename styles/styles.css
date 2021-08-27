@@ -49,19 +49,21 @@
 #logo {
     display: flex;
     justify-content: center;
-    margin-top: 11.5%;
+    margin-top: 8%;
 }
 
 #search-box {
     display: flex;
     justify-content: center;
     width: 30%;
-    height: 40px;    
-    border-color: grey;
+    height: 45px;    
+    border-color: rgba(128, 128, 128, 0.301);
     border-style: solid;
-    border-radius: 15%;
+    border-radius: 24px;
+    border-width: 1px;
     position: relative;
-    left: 35%
+    left: 35%;
+    margin-top: 2%;
 }
 
 #searcher {
@@ -71,17 +73,30 @@
 
 #input {
     width: 100%;
+    height: 10%;
     border: none;
 }
 
 #mic {
     height: 25px;
-    margin-top: 1.5%;
+    margin-top: 15%;
 }
 
 #buttons {
     display: flex;
     justify-content: center;
+    margin-top: 1.3%;
+    column-gap: 2.2%;
+}
+
+.button {
+    background-color: rgb(242,242,242);
+    border-style: none;
+    border-radius: 7%;
+    color: rgba(0,0,0,0.6);
+    height: 200%;
+    width: 130%;
+    font-size: 14px;
 }
 
 #footer {
